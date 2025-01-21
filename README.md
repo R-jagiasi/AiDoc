@@ -2,8 +2,6 @@
 
 Facilitating the appointment process through AI
 
-Check out our [technical demo](https://www.youtube.com/watch?v=iepbyKEVYv4)!
-
 ## 💡Inspiration
 
 10 million Canadians will be without a family doctor in the next three to four years.​ This crisis disproportionately affects specific communities, including senior citizens, international students, and low-income individuals.​ The healthcare industry is facing a widespread doctor shortage, resulting in burdened healthcare professionals and prolonged wait times. Patient needs must be streamlined — currently, despite the nature of an appointment, doctors still have to go through the diagnostic process, which can be inefficient.​

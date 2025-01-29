@@ -1,47 +1,27 @@
-# PocketDoc
+## AIDoc
+Enhancing healthcare accessibility through AI-driven solutions
 
-Facilitating the appointment process through AI
+## Inspiration
+In India, a significant portion of the population struggles with obtaining timely medical consultations due to a shortage of healthcare professionals. This challenge is especially acute in rural areas and among underprivileged communities, where access to medical advice is often delayed or unavailable. The need for efficient, scalable solutions in the healthcare sector is more critical than ever to ensure timely and effective patient care.
 
-## 💡Inspiration
+Welcome to AIDoc.
 
-10 million Canadians will be without a family doctor in the next three to four years.​ This crisis disproportionately affects specific communities, including senior citizens, international students, and low-income individuals.​ The healthcare industry is facing a widespread doctor shortage, resulting in burdened healthcare professionals and prolonged wait times. Patient needs must be streamlined — currently, despite the nature of an appointment, doctors still have to go through the diagnostic process, which can be inefficient.​
+## What AIDoc Does
+AIDoc is an AI-powered healthcare application designed to provide immediate medical insights to its users. Begin your health consultation by interacting with our AI assistant, which will inquire about your symptoms and identify potential health issues. If necessary, the assistant will guide you to the closest healthcare facility for further treatment. After the interaction, AIDoc saves the conversation and offers actionable health advice that patients can follow before or after visiting a doctor.
 
-Introducing PocketDoc.
+For healthcare professionals, AIDoc includes an administrative dashboard that allows for optional patient check-ins to monitor ongoing recovery or health concerns effectively.
 
-## 🔍 What it does
+## Development of AIDoc
+The front end of AIDoc was developed using React, JavaScript, and TailwindCSS, ensuring a responsive and intuitive user interface. The back end was crafted with Python, Flask, and MongoDB, with integration via the Thoughtly AI for seamless communication. We employed Zapier for workflow automation and Google Cloud for data management, ensuring all patient data is securely handled and stored. Our application leverages OpenAI's API to generate personalized health recommendations from user conversations. The entire system is hosted using Heroku for the backend and Netlify for the frontend deployment.
 
-PocketDoc is a healthcare AI app dedicated to providing patients with accurate medical information about themselves. Jump right into it by calling our AI agent who will ask you about your symptoms and pinpoint the problem. If needed, the agent will also direct you to the nearest clinic to get the appropriate treatment. Once the call is over, PocketDoc saves the conversation and displays some helpful recommendations that the patient can follow before or after their appointment.
+## Challenges Encountered
+The integration of various APIs was challenging but ultimately led to a robust application capable of handling real-time user interactions and data processing seamlessly.
 
-We also built an admin dashboard for the doctors themselves, who can toggle optional check-ins with their patients. If a check-in is suggested, our AI agent will call the patient, asking them some follow-up questions to ensure the patient is recovering properly.
+## Achievements
+We are proud of our seamless integration of complex technologies such as Thoughtly, Zapier, and Google Cloud into a cohesive platform that supports real-time health consultations. We mapped an entire user journey from initial symptom analysis to post-consultation follow-up, ensuring a comprehensive user experience.
 
-## ⚙️ How we built it
+## Lessons Learned
+The project provided us with invaluable experience in managing a full-stack development project from start to finish within a tight deadline. We gained insights into both the technical and business aspects of creating a healthcare application that can scale.
 
-We constructed the front end with React, JavaScript, and TailwindCSS. We built the backend with Python, Flask, and MongoDB. We also leveraged Thoughtly for the AI agent communication, Zapier for integration between the agent and the saved transcript, and Google Cloud to grab the data in our backend and store/retrieve it through our database. Finally, we used OpenAI's API to provide recommendations based on the user transcript. The backend is deployed on Heroku and the frontend is on Netlify.
-
-<img width="841" alt="Screenshot 2024-03-16 at 2 56 09 PM" src="https://github.com/Ezzhingy/pocketdoc/assets/86681988/40689c70-9358-49ae-9da5-a3998c86e7bb">
-
-## 🚧 Challenges we ran into
-
-Integrating all the APIs together proved to be a bit of a challenge. However, it was well worth it once everything clicked into place.
-
-## ✔️ Accomplishments that we're proud of
-
-<ul>
-  <li>The integration of Thoughtly with Zapier, Google Cloud, & Google Sheets</li>
-  <li>Mapping out the user journey and flow</li>
-</ul>
-
-## 📚 What we learned
-
-<ul>
-<li>How to successfully take a full-stack project end-to-end in < 24 hours as a team of two developers</li>
-<li>How to scope and bring out the business aspect of our application</li>
-</ul>
-
-## 🔭 What's next for PocketDoc!
-
-<ul>
-<li>Migrating to CRMs and switching over to Airtable for cloud scalability</li>
-<li>Integrating the concept of memory into our AI agent, giving it the ability to remember past consultations with patients.</li>
-<li>We are planning on scaling PocketDoc to a national audience. As we wrap up our financial modelling, we hope to pitch our idea at incubators and toward potential investors</li>
-</ul>
+## Looking Ahead for AIDoc
+Future enhancements for AIDoc include migrating our database management to Airtable for improved scalability and incorporating a memory function in our AI to allow for personalized patient care based on past interactions. Our goal is to expand AIDoc's reach nationally and to present our model to incubators and potential investors to further our impact.
